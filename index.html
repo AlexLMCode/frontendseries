@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Series demo</title>
+</head>
+
+<body>
+         <p> Consumo de API</p>
+         <div >
+             <label>Name</label>
+             <input type= "text" id="name">
+         </div>
+         <div>
+            <label>Synopsis</label>
+            <input type= "text" id="synopsis">
+         </div>
+         <div>
+            <label>Created By</label>
+            <input type= "text" id="createdby">
+         </div>
+         <div>
+            <label>Number of episodes</label>
+            <input type= "text" id="numberEpisodes">
+         </div>
+         <div>
+            <label>Genre</label>
+            <input type= "text" id="genre">
+         </div>
+         <div>
+            <label>Seasons</label>
+            <input type= "text" id="seasons">
+         </div>
+
+<button onclick="postLinks()">
+    POST
+</button>
+<button onclick="getLinks()">
+    GET
+</button>
+<div id="resultado"></div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="callrestapi.js"></script>
+</body>
+</html>
